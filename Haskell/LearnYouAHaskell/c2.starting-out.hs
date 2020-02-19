@@ -18,5 +18,7 @@ greaterThan x y = x > y
 even :: [Int] -> [Int]
 even xs = [x | x <- xs, mod x 2 == 0 ]
 
+-- The onlyLowercase function takes one array of characters, passes it to a list comprehension
+-- which returns one array of characters that are elements of the array of all lowercase letters
 onlyLowercase :: [Char] -> [Char]
 onlyLowercase xs = [x | x <- xs, elem x ['a'..'z']]
