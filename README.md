@@ -16,5 +16,5 @@ Code in this repository will either be written by myself or from other sources t
 │   ├── LearnYouAHaskell          # Code written throughout the reading of Learn You A Haskell
 ```
 ## Sources
-Haskell
+### Haskell
 - [Learn You a Haskell for Great Good!](http://learnyouahaskell.com)
