@@ -14,6 +14,7 @@ Code in this repository will either be written by myself or from other sources t
 .
 ├── Haskell
 │   ├── LearnYouAHaskell          # Code written throughout the reading of Learn You A Haskell
+│   ├── H-99                      # Solutions to Ninety Nine Haskell Problems from Haskell wiki
 ```
 ## Sources
 ### Haskell
