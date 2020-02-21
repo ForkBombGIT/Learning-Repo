@@ -18,3 +18,4 @@ Code in this repository will either be written by myself or from other sources t
 ## Sources
 ### Haskell
 - [Learn You a Haskell for Great Good!](http://learnyouahaskell.com)
+- [H-99: Ninety-Nine Haskell Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems)
