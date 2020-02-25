@@ -4,6 +4,7 @@
 -- |Maximum awesome
 --  An implementation of the max function, used to find the maximum element in a list
 --  The Ord class ensures that the input is orderable
+
 maximum' :: (Ord a) => [a] -> a  
 maximum' [] = error "maximum of empty list" -- recursively, there will never be no elements, handles invalid user input
 maximum' [x] = x  -- if there is only one element, return it
@@ -14,6 +15,7 @@ maximum' (x:xs)
 
 -- |Quick sort
 --  A Haskell implementation of the quick sort algorithm
+
 quicksort :: (Ord a) => [a] -> [a]  
 quicksort [] = []  
 quicksort (x:xs) =   
