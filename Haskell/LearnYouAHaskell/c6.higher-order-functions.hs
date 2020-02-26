@@ -25,3 +25,31 @@ applyTwice f x = f (f x)
 -- Example call: applyTwice (+3) 10  
 -- 16  
 
+-- |Maps and filters
+--  The map takes a function and a list and applies that function to every element in the list, producing a new list.
+
+map :: (a -> b) -> [a] -> [b]  
+map _ [] = []  
+map f (x:xs) = f x : map f xs  
+
+-- filter is a function that takes a predicate (a predicate is a function that tells whether something is true or not, so in our case, a function that returns a boolean value) and 
+-- a list and then returns the list of elements that satisfy the predicate.
+
+filter :: (a -> Bool) -> [a] -> [a]  
+filter _ [] = []  
+filter p (x:xs)   
+    | p x       = x : filter p xs  
+    | otherwise = filter p xs  
+
+-- quicksort is an implementation of the quicksort algorithm, however this one uses the filter function
+
+quicksort :: (Ord a) => [a] -> [a]    
+quicksort [] = []    
+quicksort (x:xs) =     
+    let smallerSorted = quicksort (filter (<=x) xs) -- filter out all elements less than x and pass it to quicksort  
+        biggerSorted = quicksort (filter (>x) xs)   -- filter out all elements greater than x and pass it to quicksort
+    in  smallerSorted ++ [x] ++ biggerSorted        -- add the result of the smaller sort to the left of x, and the result of the larger sort to the right of x
+
+-- |Lambdas
+--  Anonymous, typically single use functions
+--  Written as: \<parameters> -> <body>
