@@ -1,0 +1,2 @@
+-- |Learn You a Haskell
+-- Chapter 7: Modules
