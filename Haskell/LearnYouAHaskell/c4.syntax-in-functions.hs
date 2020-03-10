@@ -19,7 +19,7 @@ charName 'c' = "Cecil"
 
 -- |Guards, guards!
 -- bmiTell takes a RealFloat (float and double, essentially) and returns a string in response to the float
--- This is an example of guards, which are essentially Haskells equivalent to if else statements
+-- This is an example of guards, which are essentially haskell's equivalent to if else statements
 
 bmiTell :: (RealFloat a) => a -> String  
 bmiTell bmi  

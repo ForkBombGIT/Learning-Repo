@@ -48,4 +48,4 @@ findValue x (h:t)
 addVals :: (Num a) => a -> a -> a
 addVals x y = x + y
 
--- Some other typeclasses include: Ord (for ordering), Show (can be presented as a string), Enum (subquentially ordered values), Bounded (upper and lower bounded)
+-- Some other typeclasses include: Ord (for ordering), Show (can be presented as a string), Enum (sequentially ordered values), Bounded (upper and lower bounded)

@@ -2,7 +2,7 @@
 --  Chapter 2: Starting Out
 
 -- |Baby's First Function
--- The square function takes one integer, multiplys it by itself, 
+-- The square function takes one integer, multiplies it by itself, 
 -- then returns one integer
 
 square :: Int -> Int

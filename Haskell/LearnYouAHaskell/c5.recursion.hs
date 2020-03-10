@@ -3,7 +3,7 @@
 
 -- |Maximum awesome
 -- An implementation of the max function, used to find the maximum element in a list
--- The Ord class ensures that the input is orderable
+-- The Ord class ensures that the input can be ordered
 
 maximum' :: (Ord a) => [a] -> a  
 maximum' [] = error "maximum of empty list" -- recursively, there will never be no elements, handles invalid user input

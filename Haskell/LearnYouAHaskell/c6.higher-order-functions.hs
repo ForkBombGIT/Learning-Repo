@@ -82,4 +82,4 @@ sum' xs = foldl (\acc x -> acc + x) 0 xs
 -- negateArray will take an array and make all values negative
 
 negateArray :: (Num a) => [a] -> [a]
-negateArray arr = Prelude.map (negate . abs) arr -- the result of abs will be passed into negate using function compositon
+negateArray arr = Prelude.map (negate . abs) arr -- the result of abs will be passed into negate using function composition
