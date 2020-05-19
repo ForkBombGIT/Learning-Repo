@@ -6,7 +6,8 @@
 - [Sources](#sources)
 
 ## About the Repo
-This is repository of practice projects, demos, and general fiddling with programming technologies
+This is repository of practice projects, demos, personal notes from textbooks, and general fiddling with programming technologies
+
 Code in this repository will either be written by myself or from other sources that will be cited appropriately
 
 ## Code Structure

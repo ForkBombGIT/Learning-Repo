@@ -22,6 +22,8 @@ circumferenceFloat r = 2 * pi * r
 circumferenceDouble :: Double -> Double  
 circumferenceDouble r = 2 * pi * r  
 
+-- Haskell also supports Bool and Char
+
 -- |Type variables
 -- The takeHead function takes a type variable (similar to a generic) array, and returns the first element of the array
 takeHead :: [a] -> a
@@ -45,3 +47,5 @@ findValue x (h:t)
 -- Num is a numeric typeclass. Its members have the property of being able to act like numbers. Let's examine the type of a number.
 addVals :: (Num a) => a -> a -> a
 addVals x y = x + y
+
+-- Some other typeclasses include: Ord (for ordering), Show (can be presented as a string), Enum (sequentially ordered values), Bounded (upper and lower bounded)
