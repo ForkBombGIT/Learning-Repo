@@ -1,4 +1,4 @@
-# Practice
+# Learning Respository
 
 ## Table of Contents
 - [About the Repo](#about-the-repo)
