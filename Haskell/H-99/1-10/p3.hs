@@ -3,7 +3,7 @@
 --  Sample Input:  elementAt [1,2,3,4] 2
 --  Sample Output: 2
 
--- |My Solution
+-- |A Solution
 elementAt :: [a] -> Int -> a
 elementAt arr n = elementAtHelper arr n 1
 

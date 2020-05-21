@@ -3,7 +3,7 @@
 --  Sample Input:  myLength [123, 456, 789]
 --  Sample Output: 3
 
--- |My Solution
+-- |A Solution
 myLength :: [a] -> Int
 myLength arr = lengthHelper arr 0
 

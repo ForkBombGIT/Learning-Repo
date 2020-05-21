@@ -3,7 +3,7 @@
 --  Sample Input:  myButLast [1,2,3,4]
 --  Sample Output: 3
 
--- |My Solution
+-- |A Solution
 myButLast :: [a] -> a
 myButLast [] = error "Empty list"
 myButLast [x] = error "Only one element"

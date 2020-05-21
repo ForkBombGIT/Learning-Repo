@@ -3,7 +3,7 @@
 --  Sample Input:  myLast [1,2,3,4]
 --  Sample Output: 4
 
--- |My Solution
+-- |A Solution
 myLast :: [a] -> a
 myLast [] = error "Empty list"
 myLast [x] = x

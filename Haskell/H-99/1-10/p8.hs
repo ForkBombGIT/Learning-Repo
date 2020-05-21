@@ -4,7 +4,7 @@
 -- Sample Input:  compress "aaaabccaadeeee"
 -- Sample Output: "abcade"
 
--- |My Solution
+-- |A Solution
 compress :: (Eq a) => [a] -> [a]
 compress [] = []
 compress [x] = [x]
