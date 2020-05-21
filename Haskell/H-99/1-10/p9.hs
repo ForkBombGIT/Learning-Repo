@@ -5,11 +5,14 @@
 
 -- |A Solution
 pack :: (Eq a) => [a] -> [[a]]
-pack [] = []
-pack [x] = [[x]]
-pack [x,y]
-    | (x /= y) = [[x],[y]]
-    | otherwise = [[x,y]]
-pack (x:(y:xs))
-    | (x /= y) = [[x],[y]] ++ pack(xs)
-    | otherwise = [[x,y]] ++ pack(xs)
+pack arr = pack' [head arr] arr
+
+pack' :: (Eq a) => [a] -> [a] -> [[a]]
+pack' arr [] = arr : []
+pack' arr [x] 
+    | elem x arr = (x : arr) : []
+    | otherwise = [arr,[x]] 
+pack' arr (x:xs) 
+    | elem x arr = pack' (x : arr) xs
+    | otherwise = arr : pack' [x] xs
+    
