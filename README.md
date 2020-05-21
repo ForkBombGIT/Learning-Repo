@@ -1,4 +1,4 @@
-# Practice Projects
+# Learning Respository
 
 ## Table of Contents
 - [About the Repo](#about-the-repo)
@@ -16,7 +16,8 @@ Code in this repository will either be written by myself or from other sources t
 ├── Haskell
 │   ├── LearnYouAHaskell          # Code written throughout the reading of Learn You A Haskell
 │   ├── H-99                      # Solutions to Ninety Nine Haskell Problems from Haskell wiki
-│   ├── Yesod                     # Code written throughout the reading of Developing Web Applications with Haskell and Yesod,
+│   ├── Yesod                     # Code written throughout the reading of Developing Web Applications 
+                                    with Haskell and Yesod,
 │       ├── helloworld              and other Yesod practice
 │       ├── sample                  
 ```
